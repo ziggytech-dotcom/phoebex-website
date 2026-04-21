@@ -61,13 +61,13 @@ export default function Pricing() {
               </div>
               <p style={{ fontSize: '13px', color: '#666', lineHeight: 1.5, marginBottom: '20px' }}>{desc}</p>
               <div style={{ fontSize: '12px', color: '#888', marginBottom: '20px' }}>
-                <div>📡 {domains}</div>
-                <div style={{ marginTop: '6px' }}>⚡ {requests} API requests</div>
+                <div>{domains}</div>
+                <div style={{ marginTop: '6px' }}>{requests} API requests/day</div>
               </div>
               <ul style={{ margin: '0 0 28px', padding: '0 0 0 0', listStyle: 'none' }}>
                 {features.map(f => (
                   <li key={f} style={{ fontSize: '13px', color: '#aaa', marginBottom: '8px', display: 'flex', gap: '8px', alignItems: 'flex-start' }}>
-                    <span style={{ color: TEAL, flexShrink: 0 }}>✓</span>{f}
+                    <span style={{ color: TEAL, flexShrink: 0, marginRight: '6px' }}>—</span>{f}
                   </li>
                 ))}
               </ul>
@@ -76,7 +76,7 @@ export default function Pricing() {
                 background: highlight ? TEAL : 'transparent',
                 color: highlight ? '#000' : TEAL,
                 border: highlight ? 'none' : `1px solid ${TEAL}`,
-              }}>{cta} →</Link>
+              }}>{cta}</Link>
               {name === 'Enterprise' && (
                 <p style={{ fontSize: '11px', color: '#444', textAlign: 'center', marginTop: '10px', lineHeight: 1.5 }}>
                   For institutional clients managing $50M+ AUM, dedicated licensing structures are available. Schedule a call.

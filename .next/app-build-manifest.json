@@ -22,14 +22,6 @@
       "static/chunks/main-app-f61c90ee2732ce9e.js",
       "static/chunks/app/api/contact/route-d7f8e72c89ff0978.js"
     ],
-    "/contact/page": [
-      "static/chunks/webpack-a5d8f4760183e3a2.js",
-      "static/chunks/4bd1b696-c023c6e3521b1417.js",
-      "static/chunks/255-4f212684648fcab9.js",
-      "static/chunks/main-app-f61c90ee2732ce9e.js",
-      "static/chunks/619-ba102abea3e3d0e4.js",
-      "static/chunks/app/contact/page-ae39dd733b13b1df.js"
-    ],
     "/docs/page": [
       "static/chunks/webpack-a5d8f4760183e3a2.js",
       "static/chunks/4bd1b696-c023c6e3521b1417.js",
@@ -46,6 +38,14 @@
       "static/chunks/619-ba102abea3e3d0e4.js",
       "static/chunks/app/for-corporate/page-bf10a5251df99288.js"
     ],
+    "/contact/page": [
+      "static/chunks/webpack-a5d8f4760183e3a2.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-4f212684648fcab9.js",
+      "static/chunks/main-app-f61c90ee2732ce9e.js",
+      "static/chunks/619-ba102abea3e3d0e4.js",
+      "static/chunks/app/contact/page-ae39dd733b13b1df.js"
+    ],
     "/for-insurance/page": [
       "static/chunks/webpack-a5d8f4760183e3a2.js",
       "static/chunks/4bd1b696-c023c6e3521b1417.js",
@@ -53,14 +53,6 @@
       "static/chunks/main-app-f61c90ee2732ce9e.js",
       "static/chunks/619-ba102abea3e3d0e4.js",
       "static/chunks/app/for-insurance/page-efa0b2f97c4e0194.js"
-    ],
-    "/for-investors/page": [
-      "static/chunks/webpack-a5d8f4760183e3a2.js",
-      "static/chunks/4bd1b696-c023c6e3521b1417.js",
-      "static/chunks/255-4f212684648fcab9.js",
-      "static/chunks/main-app-f61c90ee2732ce9e.js",
-      "static/chunks/619-ba102abea3e3d0e4.js",
-      "static/chunks/app/for-investors/page-40bec703d23c4e1c.js"
     ],
     "/for-real-estate/page": [
       "static/chunks/webpack-a5d8f4760183e3a2.js",
@@ -78,6 +70,14 @@
       "static/chunks/619-ba102abea3e3d0e4.js",
       "static/chunks/app/other-industries/page-72d845c6e210640a.js"
     ],
+    "/for-investors/page": [
+      "static/chunks/webpack-a5d8f4760183e3a2.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-4f212684648fcab9.js",
+      "static/chunks/main-app-f61c90ee2732ce9e.js",
+      "static/chunks/619-ba102abea3e3d0e4.js",
+      "static/chunks/app/for-investors/page-40bec703d23c4e1c.js"
+    ],
     "/page": [
       "static/chunks/webpack-a5d8f4760183e3a2.js",
       "static/chunks/4bd1b696-c023c6e3521b1417.js",
@@ -92,7 +92,7 @@
       "static/chunks/255-4f212684648fcab9.js",
       "static/chunks/main-app-f61c90ee2732ce9e.js",
       "static/chunks/619-ba102abea3e3d0e4.js",
-      "static/chunks/app/pricing/page-5e61faf0b99ff03f.js"
+      "static/chunks/app/pricing/page-0b989f1a479bd8bb.js"
     ],
     "/privacy/page": [
       "static/chunks/webpack-a5d8f4760183e3a2.js",
