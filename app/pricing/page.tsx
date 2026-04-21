@@ -77,6 +77,11 @@ export default function Pricing() {
                 color: highlight ? '#000' : TEAL,
                 border: highlight ? 'none' : `1px solid ${TEAL}`,
               }}>{cta} →</Link>
+              {name === 'Enterprise' && (
+                <p style={{ fontSize: '11px', color: '#444', textAlign: 'center', marginTop: '10px', lineHeight: 1.5 }}>
+                  For institutional clients managing $50M+ AUM, dedicated licensing structures are available. Schedule a call.
+                </p>
+              )}
             </div>
           ))}
         </div>
