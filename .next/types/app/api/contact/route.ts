@@ -1,4 +1,4 @@
-// File: /home/ubuntu/Projects/rnda-website/app/api/contact/route.ts
+// File: /home/ubuntu/Projects/phoebex-website/app/api/contact/route.ts
 import * as entry from '../../../../../app/api/contact/route.js'
 import type { NextRequest } from 'next/server.js'
 

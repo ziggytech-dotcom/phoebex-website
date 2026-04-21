@@ -39,16 +39,58 @@
       "namedRegex": "^/contact(?:/)?$"
     },
     {
-      "page": "/demo",
-      "regex": "^/demo(?:/)?$",
+      "page": "/docs",
+      "regex": "^/docs(?:/)?$",
       "routeKeys": {},
-      "namedRegex": "^/demo(?:/)?$"
+      "namedRegex": "^/docs(?:/)?$"
     },
     {
-      "page": "/technical",
-      "regex": "^/technical(?:/)?$",
+      "page": "/for-corporate",
+      "regex": "^/for\\-corporate(?:/)?$",
       "routeKeys": {},
-      "namedRegex": "^/technical(?:/)?$"
+      "namedRegex": "^/for\\-corporate(?:/)?$"
+    },
+    {
+      "page": "/for-insurance",
+      "regex": "^/for\\-insurance(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/for\\-insurance(?:/)?$"
+    },
+    {
+      "page": "/for-investors",
+      "regex": "^/for\\-investors(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/for\\-investors(?:/)?$"
+    },
+    {
+      "page": "/for-real-estate",
+      "regex": "^/for\\-real\\-estate(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/for\\-real\\-estate(?:/)?$"
+    },
+    {
+      "page": "/other-industries",
+      "regex": "^/other\\-industries(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/other\\-industries(?:/)?$"
+    },
+    {
+      "page": "/pricing",
+      "regex": "^/pricing(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/pricing(?:/)?$"
+    },
+    {
+      "page": "/privacy",
+      "regex": "^/privacy(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/privacy(?:/)?$"
+    },
+    {
+      "page": "/terms",
+      "regex": "^/terms(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/terms(?:/)?$"
     }
   ],
   "dataRoutes": [],

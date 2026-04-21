@@ -99,7 +99,7 @@
         "transform": "lodash/{{member}}"
       }
     },
-    "outputFileTracingRoot": "/home/ubuntu/Projects/rnda-website",
+    "outputFileTracingRoot": "/home/ubuntu/Projects/phoebex-website",
     "experimental": {
       "useSkewCookie": false,
       "cacheLife": {
@@ -289,10 +289,10 @@
     "bundlePagesRouterDependencies": false,
     "configFileName": "next.config.js",
     "turbopack": {
-      "root": "/home/ubuntu/Projects/rnda-website"
+      "root": "/home/ubuntu/Projects/phoebex-website"
     }
   },
-  "appDir": "/home/ubuntu/Projects/rnda-website",
+  "appDir": "/home/ubuntu/Projects/phoebex-website",
   "relativeAppDir": "",
   "files": [
     ".next/routes-manifest.json",
