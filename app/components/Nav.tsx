@@ -12,6 +12,7 @@ export default function Nav() {
     { href: '/for-insurance', label: 'For Insurance' },
     { href: '/other-industries', label: 'Other Industries' },
     { href: '/pricing', label: 'Pricing' },
+    { href: '/methodology', label: 'Methodology' },
     { href: '/docs', label: 'Docs' },
   ]
   return (

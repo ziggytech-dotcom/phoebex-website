@@ -69,6 +69,12 @@
       "namedRegex": "^/for\\-real\\-estate(?:/)?$"
     },
     {
+      "page": "/methodology",
+      "regex": "^/methodology(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/methodology(?:/)?$"
+    },
+    {
       "page": "/other-industries",
       "regex": "^/other\\-industries(?:/)?$",
       "routeKeys": {},

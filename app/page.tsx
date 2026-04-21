@@ -169,7 +169,7 @@ export default function Home() {
       <footer style={{ borderTop: '1px solid rgba(255,255,255,0.07)', padding: '32px 20px', textAlign: 'center' }}>
         <div style={{ maxWidth: '960px', margin: '0 auto' }}>
           <div style={{ display: 'flex', justifyContent: 'center', gap: '32px', flexWrap: 'wrap', marginBottom: '20px' }}>
-            {['/pricing', '/docs', '/contact', '/privacy', '/terms'].map(href => (
+            {['/pricing', '/methodology', '/docs', '/contact', '/privacy', '/terms'].map(href => (
               <Link key={href} href={href} style={{ color: '#555', textDecoration: 'none', fontSize: '13px' }}>
                 {href.replace('/', '').replace('-', ' ').replace(/\b\w/g, c => c.toUpperCase())}
               </Link>
