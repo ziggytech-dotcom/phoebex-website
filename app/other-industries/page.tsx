@@ -20,12 +20,12 @@ export default function OtherIndustries() {
 
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '20px', marginBottom: '60px' }}>
           {[
-            { industry: 'Retail & Consumer Brands', signals: ['Consumer spending forecast', 'Holiday season predictor', 'Pricing power signal', 'Inventory planning indicator'], icon: '🛍️' },
-            { industry: 'Government & Municipal', signals: ['Revenue forecast model', 'State/local budget signal', 'Unemployment benefit planning', 'Economic policy indicators'], icon: '🏛️' },
-            { industry: 'HR & Staffing Firms', signals: ['Talent market tightness', 'Compensation timing signal', 'Workforce risk dashboard', 'Hiring/layoff indicator'], icon: '👥' },
-            { industry: 'Media & Financial Publishers', signals: ['Economic health score', 'Recession probability', 'Financial stress index', 'Sector rotation signal'], icon: '📊' },
-            { industry: 'Logistics & Supply Chain', signals: ['Supply chain risk score', 'Manufacturing orders signal', 'Inventory ratio indicator', 'Energy price forecasts'], icon: '🚚' },
-            { industry: 'Healthcare Systems', signals: ['Healthcare employment trends', 'Medical cost pressure', 'Consumer health spending', 'Labor market for clinical'], icon: '🏥' },
+            { industry: 'Retail & Consumer Brands', signals: ['Consumer spending forecast', 'Holiday season predictor', 'Pricing power signal', 'Inventory planning indicator'], icon: '' },
+            { industry: 'Government & Municipal', signals: ['Revenue forecast model', 'State/local budget signal', 'Unemployment benefit planning', 'Economic policy indicators'], icon: '' },
+            { industry: 'HR & Staffing Firms', signals: ['Talent market tightness', 'Compensation timing signal', 'Workforce risk dashboard', 'Hiring/layoff indicator'], icon: '' },
+            { industry: 'Media & Financial Publishers', signals: ['Economic health score', 'Recession probability', 'Financial stress index', 'Sector rotation signal'], icon: '' },
+            { industry: 'Logistics & Supply Chain', signals: ['Supply chain risk score', 'Manufacturing orders signal', 'Inventory ratio indicator', 'Energy price forecasts'], icon: '' },
+            { industry: 'Healthcare Systems', signals: ['Healthcare employment trends', 'Medical cost pressure', 'Consumer health spending', 'Labor market for clinical'], icon: '' },
           ].map(({ industry, signals, icon }) => (
             <div key={industry} style={{ background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.08)', borderRadius: '12px', padding: '24px' }}>
               <div style={{ fontSize: '28px', marginBottom: '12px' }}>{icon}</div>
@@ -39,7 +39,7 @@ export default function OtherIndustries() {
 
         {/* Custom signal CTA */}
         <div style={{ background: 'linear-gradient(135deg, rgba(14,165,200,0.08) 0%, rgba(14,165,200,0.04) 100%)', border: '1px solid rgba(14,165,200,0.25)', borderRadius: '20px', padding: '48px', textAlign: 'center' }}>
-          <div style={{ fontSize: '36px', marginBottom: '16px' }}>🔬</div>
+          <div style={{ fontSize: '36px', marginBottom: '16px' }}></div>
           <h2 style={{ fontSize: '1.8rem', fontWeight: 700, marginBottom: '16px' }}>Don&apos;t see your industry?</h2>
           <p style={{ color: '#888', maxWidth: '520px', margin: '0 auto 32px', lineHeight: 1.7, fontSize: '15px' }}>
             We can develop custom cross-domain signal packages for your specific use case. Tell us what decisions you need to make and we&apos;ll identify the signals that matter most.

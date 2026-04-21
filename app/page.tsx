@@ -129,6 +129,31 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Methodology & Limitations */}
+      <section style={{ background: 'rgba(255,255,255,0.02)', borderTop: '1px solid rgba(255,255,255,0.07)', padding: 'clamp(40px, 5vw, 64px) 20px' }}>
+        <div style={{ maxWidth: '820px', margin: '0 auto' }}>
+          <h2 style={{ fontSize: '1.3rem', fontWeight: 700, marginBottom: '20px' }}>Methodology</h2>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(360px, 1fr))', gap: '24px' }}>
+            <div>
+              <div style={{ fontSize: '13px', fontWeight: 600, color: '#aaa', marginBottom: '10px', textTransform: 'uppercase', letterSpacing: '0.08em' }}>What our signals measure</div>
+              <p style={{ color: '#666', fontSize: '13px', lineHeight: 1.7 }}>All signals are validated on 15 years of real economic data using walk-forward cross-validation — trained on past data, tested on data the model never saw. Cross-domain relationships are tested for statistical significance (p&lt;0.05) before inclusion.</p>
+            </div>
+            <div>
+              <div style={{ fontSize: '13px', fontWeight: 600, color: '#aaa', marginBottom: '10px', textTransform: 'uppercase', letterSpacing: '0.08em' }}>Real-time data collection</div>
+              <p style={{ color: '#666', fontSize: '13px', lineHeight: 1.7 }}>Economic data is collected daily and weekly as it is released by government sources. Signals update within 24 hours of each domain&apos;s primary data release. Models are designed to improve as additional real-time data sources are incorporated.</p>
+            </div>
+            <div>
+              <div style={{ fontSize: '13px', fontWeight: 600, color: '#aaa', marginBottom: '10px', textTransform: 'uppercase', letterSpacing: '0.08em' }}>Limitations</div>
+              <p style={{ color: '#666', fontSize: '13px', lineHeight: 1.7 }}>Our models reflect patterns visible in economic data. They perform best identifying gradual shifts driven by economic fundamentals. Sudden external shocks — geopolitical events, policy changes, natural disasters — may not be reflected until they appear in measured economic data.</p>
+            </div>
+            <div>
+              <div style={{ fontSize: '13px', fontWeight: 600, color: '#aaa', marginBottom: '10px', textTransform: 'uppercase', letterSpacing: '0.08em' }}>Not investment advice</div>
+              <p style={{ color: '#666', fontSize: '13px', lineHeight: 1.7 }}>Phoebex signals are for informational and research purposes only. They do not constitute investment, financial, legal, or actuarial advice. Past signal performance does not guarantee future accuracy. All data from public institutional sources.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA */}
       <section style={{ borderTop: '1px solid rgba(255,255,255,0.07)', padding: 'clamp(48px, 6vw, 80px) 20px', textAlign: 'center' }}>
         <div style={{ maxWidth: '600px', margin: '0 auto' }}>
